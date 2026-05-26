@@ -92,19 +92,20 @@ cargo run --release
 This theoretical model, its mathematical formulation, and the accompanying source code are the original intellectual property of Fernando B Couto.
 To foster scientific collaboration and open-source development, this project is released under the <b>GNU General Public License v3.0 (GPL-3.0).</b>
 You are free to run, study, share, and modify the code and the theoretical concepts. However, any derivative work, academic publication, or software incorporating this algorithm must remain open-source under the same license and must explicitly credit the original author. Commercial enclosure of this algorithm is strictly prohibited under this license.
-### How to Cite This Work
-If you reference this theory, mathematical model, or computational approach in a paper, blog post, or project, please use the following citation format:
-Text / APA:
-Couto, F. B. (2026). Dissipative Gravitation Model: A Non-Linear Spatial Tension Approach to the N-Body Problem [Source code and Whitepaper]. GitHub. https://github.com/YourUsername/YourRepositoryName
-BibTeX:
+## How to Cite This Work
 
-```
+If you reference this theory, mathematical model, or computational approach in a paper, blog post, or project, please use the following citation format:
+
+**Text / APA:**
+> Couto, F. B. (2026). *Dissipative Gravitation Model: A Non-Linear Spatial Tension Approach to the N-Body Problem* [Source code and Whitepaper]. GitHub. https://github.com/fbcouto/dissipative-gravitation-model
+
+**BibTeX:**
+```bibtex
 @misc{couto2026dissipative,
   author = {Couto, Fernando B.},
   title = {Dissipative Gravitation Model: A Non-Linear Spatial Tension Approach to the N-Body Problem},
   year = {2026},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{[https://github.com/YourUsername/YourRepositoryName](https://github.com/YourUsername/YourRepositoryName)}},
+  howpublished = {\url{[https://github.com/fbcouto/dissipative-gravitation-model](https://github.com/fbcouto/dissipative-gravitation-model)}},
 }
-```
