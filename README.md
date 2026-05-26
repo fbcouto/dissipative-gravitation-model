@@ -11,6 +11,7 @@ This repository contains the theoretical foundation and the computational implem
 
 By introducing a non-linear, velocity-dependent spatial drag, this model resolves the chaotic instability of the classic 3-body problem in a vacuum, demonstrating how orbits naturally decay, dissipate energy into the medium (analogous to gravitational wave attenuation), and stabilize towards the system's geometric barycenter.
 
+![Dissipative Gravitation Model](terra.png)
 ---
 
 ## 1. Philosophical and Physical Foundations
