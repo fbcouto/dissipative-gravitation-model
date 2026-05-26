@@ -39,11 +39,12 @@ const PALETTE: [Color; 8] = [RED, GREEN, BLUE, YELLOW, MAGENTA, SKYBLUE, ORANGE,
 
 #[macroquad::main("3D Dissipative Gravitation Model by Fernando B Couto")]
 async fn main() {
-    // Initial state editable by the user (Added Z components to break the flat plane)
+  
+    // Pequenos valores em Z adicionados apenas para criar o volume 3D suavemente
     let mut initial_configs = vec![
-        BodyConfig { mass: 10.0, pos: vec3(0.0, 50.0, 0.0), vel: vec3(1.5, 0.0, 0.5), color: PALETTE[0] },
-        BodyConfig { mass: 10.0, pos: vec3(-130.0, -75.0, 30.0), vel: vec3(-0.75, -1.3, -0.2), color: PALETTE[1] },
-        BodyConfig { mass: 10.0, pos: vec3(130.0, -75.0, -30.0), vel: vec3(-0.75, 1.3, 0.4), color: PALETTE[2] },
+        BodyConfig { mass: 10.0, pos: vec3(0.0, 150.0, 0.0), vel: vec3(1.5, 0.0, 0.2), color: PALETTE[0] },
+        BodyConfig { mass: 10.0, pos: vec3(-130.0, -75.0, 0.0), vel: vec3(-0.75, -1.3, -0.1), color: PALETTE[1] },
+        BodyConfig { mass: 10.0, pos: vec3(130.0, -75.0, 0.0), vel: vec3(-0.75, 1.3, 0.1), color: PALETTE[2] },
     ];
 
     let mut bodies = apply_configs(&initial_configs);
