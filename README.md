@@ -114,10 +114,13 @@ Where:
 * $\Upsilon(v)$ is the Spatial Tension Tensor of the Dissipative Model.
 
 ### Thermodynamic Conservation of the Vacuum
+
 For the First Law of Thermodynamics (Lavoisier) to be respected, the kinetic energy stolen from matter by spatial friction cannot disappear. Einstein's field equation must be altered to include the vacuum as an active thermodynamic sink. We replace the cosmological constant ($\Lambda$) with a Medium Dissipation Tensor $\mathcal{D}_{\mu\nu}$:
+
 $$R_{\mu\nu} - \frac{1}{2}R g_{\mu\nu} = \frac{8\pi G}{c^4} \left( T_{\mu\nu}^{(Matter)} + \mathcal{D}_{\mu\nu}^{(Vacuum)} \right)$$
 
 Strict energy conservation becomes a symmetric exchange between matter and the spatial fabric:
+
 $$\nabla_\mu T^{\mu\nu}_{(Matter)} = - \nabla_\mu \mathcal{D}^{\mu\nu}_{(Vacuum)}$$
 
 ---
