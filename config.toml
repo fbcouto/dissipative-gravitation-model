@@ -1,0 +1,8 @@
+[target.wasm32-unknown-unknown]
+rustflags = [
+    "-C", "link-arg=--export-table",
+    "-C", "link-arg=--export-dynamic",
+    "-C", "link-arg=--export=main",
+    "-C", "link-arg=--no-entry",
+    "-C", "link-arg=--allow-undefined"
+]
