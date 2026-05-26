@@ -168,7 +168,7 @@ It leaves behind a hydrodynamic "wake" or scar: a residue of dark matter and gra
 
 ## 1. Physical Foundations: The Break from the Standard Model
 
-The Standard Model of Cosmology ($\Lambda$CDM) postulates that the universe had a singular beginning (the Big Bang), where space and time were created simultaneously from a point of infinite density, expanding passively ever since. 
+The Standard Model of Cosmology "The Lambda Cold Dark Matter model" postulates that the universe had a singular beginning (the Big Bang), where space and time were created simultaneously from a point of infinite density, expanding passively ever since. 
 
 The **Dissipative Gravitation Model**, by attributing hydrodynamic properties and a Base Tension ($\gamma$) to spacetime, directly contradicts this premise. If space possesses resistance and mechanical friction, it cannot be a byproduct of an explosion; it must be the **pre-existing medium** where physical events occur. This paradigm shift requires rewriting three pillars of observational cosmology:
 
@@ -231,3 +231,4 @@ If you reference this theory, mathematical model, or computational approach in a
   journal = {GitHub repository},
   howpublished = {\url{[https://github.com/fbcouto/dissipative-gravitation-model](https://github.com/fbcouto/dissipative-gravitation-model)}},
 }
+
