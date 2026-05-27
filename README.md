@@ -213,6 +213,7 @@ The universe, therefore, is not a decaying clock. It is like the music of a flut
 ## 1. The Proposed Hydrodynamic Lifecycle
 
 This study proposes a preliminary working hypothesis regarding the evolutionary dynamics of dense celestial bodies. While these objects are traditionally treated as geometric singularities, this conjecture posits that high-mass systems transition into dynamic, supercavitated states within the fluid spacetime medium. To align with observational astrophysics, we bifurcate this lifecycle into two distinct scales: **Micro-Hydrodynamic Cavitation** (Stellar-scale) and **Macro-Hydrodynamic Cavitation** (Galactic-scale).
+```
 ┌─────────────────────────────────────────────────────────────┐
 │                 PRE-EXISTING SPATIAL OCEAN                  │
 │              (Base Spatial Tension: \gamma)                 │
@@ -243,7 +244,7 @@ Chaotic 3-body slingshots         Vortex centrifuge effects
 │  Rotor spin-down   │           │ Kinetic collapse / │
 │   stabilization    │           │ Lighthouse effect  │
 └────────────────────┘           └────────────────────┘
-
+```
 ### 1.1 Micro-Hydrodynamic Lifecycle (Stellar Scale)
 
 * **Phase I: Kinetic Injection (The Stellar Torpedo):** A compact stellar remnant is ejected via an asymmetric supernova explosion (natal kick) or a chaotic three-body gravitational slingshot. This imparts a massive translational velocity ($v$) that overcomes the local stagnation threshold ($v_0$) of the spatial fabric.
