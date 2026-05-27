@@ -214,36 +214,40 @@ The universe, therefore, is not a decaying clock. It is like the music of a flut
 
 This study proposes a preliminary working hypothesis regarding the evolutionary dynamics of dense celestial bodies. While these objects are traditionally treated as geometric singularities, this conjecture posits that high-mass systems transition into dynamic, supercavitated states within the fluid spacetime medium. To align with observational astrophysics, we bifurcate this lifecycle into two distinct scales: **Micro-Hydrodynamic Cavitation** (Stellar-scale) and **Macro-Hydrodynamic Cavitation** (Galactic-scale).
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                 PRE-EXISTING SPATIAL OCEAN                  │
-│              (Base Spatial Tension: \gamma)                 │
-└──────────────────────────────┬──────────────────────────────┘
-│
-┌───────────────┴───────────────┐
-▼                               ▼
-[HIGH TRANSLATION: v]             [HIGH ROTATION: \omega]
-Stellar natal kicks /             Galactic core anchors /
-Chaotic 3-body slingshots         Vortex centrifuge effects
-│                               │
-▼                               ▼
-┌────────────────────┐           ┌────────────────────┐
-│   STELLAR TORPEDO  │           │   GALACTIC ROTOR   │
-│ (Stellar Black Hole│           │(Supermassive B.H.) │
-└──────────┬─────────┘           └──────────┬─────────┘
-│                               │
-▼                               ▼
-┌────────────────────┐           ┌────────────────────┐
-│  PHASE TRANSITION  │           │  HYDRODYNAMIC SINK │
-│  Vortex-wake foam  │           │  Extreme pressure  │
-│   (Dark Matter)    │           │  gradient pull     │
-└──────────┬─────────┘           └──────────┬─────────┘
-│                               │
-▼                               ▼
-┌────────────────────┐           ┌────────────────────┐
-│  PULSAR DISSIAPATION│          │ QUASAR REINTEGRATION│
-│  Rotor spin-down   │           │ Kinetic collapse / │
-│   stabilization    │           │ Lighthouse effect  │
-└────────────────────┘           └────────────────────┘
+┌────────────────────────────────────────────────────────────┐
+│                 PRE-EXISTING SPATIAL OCEAN                 │
+│              (Base Spatial Tension: \gamma)                │
+└──────────────────────────────┬─────────────────────────────┘
+                               │
+                 ┌─────────────┴─────────────┐
+                 ▼                           ▼
+
+      [HIGH TRANSLATION: v]       [HIGH ROTATION: \omega]
+      Stellar natal kicks /       Galactic core anchors /
+      Chaotic 3-body slingshots   Vortex centrifuge effects
+                 │                           │
+                 ▼                           ▼
+
+      ┌────────────────────┐      ┌────────────────────┐
+      │   STELLAR TORPEDO  │      │   GALACTIC ROTOR   │
+      │ (Stellar Black Hole│      │ (Supermassive B.H.)│
+      └──────────┬─────────┘      └──────────┬─────────┘
+                 │                           │
+                 ▼                           ▼
+
+      ┌────────────────────┐      ┌────────────────────┐
+      │  PHASE TRANSITION  │      │  HYDRODYNAMIC SINK │
+      │  Vortex-wake foam  │      │  Extreme pressure  │
+      │   (Dark Matter)    │      │   gradient pull    │
+      └──────────┬─────────┘      └──────────┬─────────┘
+                 │                           │
+                 ▼                           ▼
+
+      ┌────────────────────┐      ┌─────────────────────┐
+      │ PULSAR DISSIPATION │      │ QUASAR REINTEGRATION│
+      │  Rotor spin-down   │      │ Kinetic collapse /  │
+      │   stabilization    │      │ Lighthouse effect   │
+      └────────────────────┘      └─────────────────────┘
 ```
 ### 1.1 Micro-Hydrodynamic Lifecycle (Stellar Scale)
 
