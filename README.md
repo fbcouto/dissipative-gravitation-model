@@ -163,6 +163,22 @@ It leaves behind a hydrodynamic "wake" or scar: a residue of dark matter and gra
 
 * **The Cosmic Web:** The colossal filaments of dark matter that connect galaxy clusters are, therefore, fossil records of navigation. They map the trajectories torn by the colossal masses of the primordial universe in motion. These channels maintain a permanently reduced spatial tension $\gamma$, creating paths of least resistance through the cosmos.
 * **The Origin of Dark Energy:** Over billions of years, the continuous friction of matter against the tension of space generates an increasing volume of this "vaporized residue". Dark Energy is redescribed in the model as the hydrodynamic or thermal pressure of this accumulated residue. The accelerated expansion of the universe is the mechanical result of the internal pressure of this residual "foam" pushing the boundaries of non-cavitated space outward, driven by the accumulation of thermodynamic dissipation from all orbits throughout the eons.
+---
+
+## 🌌 The Unified Hydrodynamic Framework: Macro & Micro Scales
+
+This celestial mechanics engine serves as the macro-scale cosmological counterpart to the **[Deterministic Wave Engine (DWE)](https://github.com/fbcouto/deterministic-wave-engine)**. Together, they form a unified hydrodynamic theory of the universe, demonstrating that nature operates under the exact same deterministic fluid mechanics from the nanometric quantum realm to binary black holes.
+
+While the DWE models sub-atomic particle trajectories, this repository applies the identical physical axioms to celestial bodies:
+
+* **The Medium (Space Tension $\gamma_0$):** Both engines reject the "sterile vacuum" abstraction. Spacetime is modeled as a viscoelastic fluid with an inherent yield strength (Base Space Tension).
+* **Macro/Micro Equivalence:** * *At the Micro-Scale (DWE):* $\gamma_0$ dictates the elastic boundary collisions and spin-wall friction that herd photon-vortices into Fraunhofer diffraction patterns (proving probability waves are merely emergent fluid dynamics).
+  * *At the Macro-Scale (This Model):* $\gamma_0$ acts as the asymptotic limit for non-linear, velocity-dependent spatial drag ($v \to \infty = \gamma_0$), naturally stabilizing N-body chaos into harmonic orbits.
+* **Decoherence as Gravitational Waves:** What quantum mechanics calls "wave-function collapse" (the destruction of a vortex's spin via friction) is the exact same mechanical phenomenon as macroscopic orbital dissipation. The attenuation of celestial orbits is simply kinetic energy bleeding into the fluid medium as thermodynamic wakes—currently interpreted by standard physics as Gravitational Waves.
+* **Vortex Mechanics:** A rotating black hole dragging the local spacetime (Frame-Dragging / Lense-Thirring effect) is mathematically and conceptually identical to the quantum Double-Cone Vortex (Spindle) simulated in the HQPU architecture.
+
+By connecting these two models, we prove that the universe does not switch rulebooks between the quantum and cosmic scales. It is governed entirely by fluidic determinism.
+
 
 ---
 # Cosmological Appendix: The Mechanics of the Eternal Universe and the Reinterpretation of the Big Bang
