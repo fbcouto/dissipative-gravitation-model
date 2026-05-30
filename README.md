@@ -180,6 +180,7 @@ Ensure you have Python 3.8+ installed, then run:
 ```bash
 pip install astropy astroquery pandas numpy
 python data_analysis/ivs_vlbi_asymmetry_filter.py
+```
 ## 7. Proposal for Experimental Verification
 
 The Dissipative Gravitation Model (DGM) posits that spacetime functions as a dynamic, viscoelastic medium rather than empty geometry. Theoretical calculations derived from this model predict that the Sun’s rotational space-drag (the spatial vortex) induces a hydrodynamic asymmetry in the deflection of light. 
