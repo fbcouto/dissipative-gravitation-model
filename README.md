@@ -163,7 +163,42 @@ It leaves behind a hydrodynamic "wake" or scar: a residue of dark matter and gra
 
 * **The Cosmic Web:** The colossal filaments of dark matter that connect galaxy clusters are, therefore, fossil records of navigation. They map the trajectories torn by the colossal masses of the primordial universe in motion. These channels maintain a permanently reduced spatial tension $\gamma$, creating paths of least resistance through the cosmos.
 * **The Origin of Dark Energy:** Over billions of years, the continuous friction of matter against the tension of space generates an increasing volume of this "vaporized residue". Dark Energy is redescribed in the model as the hydrodynamic or thermal pressure of this accumulated residue. The accelerated expansion of the universe is the mechanical result of the internal pressure of this residual "foam" pushing the boundaries of non-cavitated space outward, driven by the accumulation of thermodynamic dissipation from all orbits throughout the eons.
+## 6. Empirical Validation Tools (Python)
 
+To move beyond computational simulation and test the Dissipative Gravitation Model against observational reality, this repository includes Python scripts designed to analyze public astrophysical datasets. The goal is to detect the **hydrodynamic refraction asymmetry** caused by the rotational space-dragging of the Sun.
+
+If spacetime acts as a viscoelastic fluid (and not just empty geometry), light passing in the direction of the Sun's rotation should experience a different drag coefficient than light passing against it.
+
+### Included Analysis Scripts:
+Inside the `data_analysis` folder, you will find:
+
+* `ivs_vlbi_asymmetry_filter.py`: Uses the `astropy` library to filter Very Long Baseline Interferometry (VLBI) delay data from quasars occulted by the Sun. It splits the data into pro-rotation (East) and anti-rotation (West) subsets to isolate the fluid-drag residual ($\Delta \Upsilon$) that classic General Relativity ignores.
+* `gaia_dr3_anomaly_query.py`: Connects via `astroquery` to the European Space Agency (ESA) servers. It executes ADQL queries to extract astrometric excess noise from stars near the ecliptic, looking for macroscopic signatures of space tension resistance.
+
+### Running the Python Tools
+Ensure you have Python 3.8+ installed, then run:
+```bash
+pip install astropy astroquery pandas numpy
+python data_analysis/ivs_vlbi_asymmetry_filter.py
+## 7. Proposal for Experimental Verification
+
+The Dissipative Gravitation Model (DGM) posits that spacetime functions as a dynamic, viscoelastic medium rather than empty geometry. Theoretical calculations derived from this model predict that the Sun’s rotational space-drag (the spatial vortex) induces a hydrodynamic asymmetry in the deflection of light. 
+
+Assuming a baseline vacuum tension ($\gamma_0$) of $2.5$, the DGM predicts a differential deflection ($\Delta$) of approximately **29.14 $\mu$as** (micro-arcseconds) between photons passing pro-rotation (East hemisphere) versus anti-rotation (West hemisphere) of the Sun. This value significantly exceeds the theoretical limit predicted by pure geometric frame-dragging in General Relativity (the Kerr metric), which caps the asymmetry around $\sim 11.66 \mu as$.
+
+### The Calibration Bias Challenge
+Currently, this $\sim 29 \mu$as anomaly cannot be extracted via simple database queries because modern astrometric pipelines (used by IVS/VLBI and ESA's Gaia mission) suffer from a fundamental theoretical bias. These systems calibrate their equipment and filter their data assuming the strict and absolute validity of General Relativity. 
+
+When discrepancies exceeding Kerr geometry appear in the raw data, they are routinely classified as:
+1. **Coronal Plasma Interference:** Assumed to be random refraction caused by the solar atmosphere.
+2. **Instrumental Noise:** Assumed to be hardware sensor errors or Earth-atmospheric disturbances.
+
+Consequently, the algorithms "smooth out" and calibrate away these residuals. The empirical signature of viscoelastic space tension might already be sitting in the world's data centers, actively being erased by GR-biased preprocessing algorithms.
+
+### Call for Independent Reanalysis
+This model presents a falsifiable prediction. We challenge the experimental astrophysics community and data scientists to conduct a targeted reanalysis of **raw, uncalibrated VLBI delay data** (such as raw fringe fits). 
+
+By isolating pro-rotation and anti-rotation quasar occultations and calculating the raw residual asymmetry *without* forcing GR-based calibration models, the existence of the macroscopic viscoelastic tension of spacetime ($\gamma_0$) can be empirically detected and mathematically isolated from solar plasma noise.
 ---
 # Cosmological Appendix: The Mechanics of the Eternal Universe and the Reinterpretation of the Big Bang
 
