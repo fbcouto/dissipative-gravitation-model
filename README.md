@@ -181,14 +181,15 @@ Ensure you have Python 3.8+ installed, then run:
 pip install astropy astroquery pandas numpy
 python data_analysis/ivs_vlbi_asymmetry_filter.py
 ```
+---
 ## 7. Proposal for Experimental Verification
 
 The Dissipative Gravitation Model (DGM) posits that spacetime functions as a dynamic, viscoelastic medium rather than empty geometry. Theoretical calculations derived from this model predict that the Sun’s rotational space-drag (the spatial vortex) induces a hydrodynamic asymmetry in the deflection of light. 
 
-Assuming a baseline vacuum tension ($\gamma_0$) of $2.5$, the DGM predicts a differential deflection ($\Delta$) of approximately **29.14 $\mu$as** (micro-arcseconds) between photons passing pro-rotation (East hemisphere) versus anti-rotation (West hemisphere) of the Sun. This value significantly exceeds the theoretical limit predicted by pure geometric frame-dragging in General Relativity (the Kerr metric), which caps the asymmetry around $\sim 11.66 \mu as$.
+Assuming a baseline vacuum tension (gamma) of 2.5, the DGM predicts a differential deflection (Delta) of approximately **29.14 µas** (micro-arcseconds) between photons passing pro-rotation (East hemisphere) versus anti-rotation (West hemisphere) of the Sun. This value significantly exceeds the theoretical limit predicted by pure geometric frame-dragging in General Relativity (the Kerr metric), which caps the asymmetry around **~11.66 µas**.
 
 ### The Calibration Bias Challenge
-Currently, this $\sim 29 \mu$as anomaly cannot be extracted via simple database queries because modern astrometric pipelines (used by IVS/VLBI and ESA's Gaia mission) suffer from a fundamental theoretical bias. These systems calibrate their equipment and filter their data assuming the strict and absolute validity of General Relativity. 
+Currently, this **~29 µas** anomaly cannot be extracted via simple database queries because modern astrometric pipelines (used by IVS/VLBI and ESA's Gaia mission) suffer from a fundamental theoretical bias. These systems calibrate their equipment and filter their data assuming the strict and absolute validity of General Relativity. 
 
 When discrepancies exceeding Kerr geometry appear in the raw data, they are routinely classified as:
 1. **Coronal Plasma Interference:** Assumed to be random refraction caused by the solar atmosphere.
@@ -199,7 +200,8 @@ Consequently, the algorithms "smooth out" and calibrate away these residuals. Th
 ### Call for Independent Reanalysis
 This model presents a falsifiable prediction. We challenge the experimental astrophysics community and data scientists to conduct a targeted reanalysis of **raw, uncalibrated VLBI delay data** (such as raw fringe fits). 
 
-By isolating pro-rotation and anti-rotation quasar occultations and calculating the raw residual asymmetry *without* forcing GR-based calibration models, the existence of the macroscopic viscoelastic tension of spacetime ($\gamma_0$) can be empirically detected and mathematically isolated from solar plasma noise.
+By isolating pro-rotation and anti-rotation quasar occultations and calculating the raw residual asymmetry *without* forcing GR-based calibration models, the existence of the macroscopic viscoelastic tension of spacetime can be empirically detected and mathematically isolated from solar plasma noise.
+
 ---
 # Cosmological Appendix: The Mechanics of the Eternal Universe and the Reinterpretation of the Big Bang
 
