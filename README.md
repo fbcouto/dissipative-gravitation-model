@@ -1,5 +1,5 @@
 # Dissipative Gravitation Model: A Non-Linear Spatial Tension Approach to the N-Body Problem
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20469556.svg)](https://doi.org/10.5281/zenodo.20469556)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20417466.svg)](https://doi.org/10.5281/zenodo.20417466)
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Built with Rust](https://img.shields.io/badge/Built%20with-Rust-orange.svg)](https://www.rust-lang.org/)
@@ -222,8 +222,7 @@ You are free to run, study, share, and modify the code and the theoretical conce
 This model is officially published and archived via Zenodo. If you reference this theory, mathematical model, or computational approach in a paper, blog post, or project, please use the following citation format:
 
 **Text / APA:**
-
-> Couto, F. B. (2026). *Dissipative Gravitation Model: A Non-Linear Spatial Tension Approach to the N-Body Problem* (Version 1.0) [Preprint/Dataset]. Zenodo. https://doi.org/10.5281/zenodo.20469556
+> Couto, F. B. (2026). *Dissipative Gravitation Model: A Non-Linear Spatial Tension Approach to the N-Body Problem* [Preprint/Dataset]. Zenodo. https://doi.org/10.5281/zenodo.20417466
 
 **BibTeX:**
 
@@ -232,7 +231,7 @@ This model is officially published and archived via Zenodo. If you reference thi
   author = {Couto, Fernando B.},
   title = {Dissipative Gravitation Model: A Non-Linear Spatial Tension Approach to the N-Body Problem},
   year = {2026},
-  doi = {10.5281/zenodo.20469556},
+  doi = {10.5281/zenodo.20417466},
   publisher = {Zenodo}
 }
 
