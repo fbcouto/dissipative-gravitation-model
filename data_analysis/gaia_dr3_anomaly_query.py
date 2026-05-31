@@ -1,39 +1,38 @@
 """
-Dissipative Gravitation Model - Gaia DR3 Query
-Author: Fernando B Couto
-Description: Queries the ESA Gaia DR3 archive using ADQL to extract 
-astrometric excess noise from stars near the ecliptic plane.
+Gaia DR3 Ecliptic Pipeline Query
+Connects to ESA DPAC servers and returns anomalous sources as an Astropy Table/CSV.
 """
 from astroquery.gaia import Gaia
 import warnings
 
 warnings.filterwarnings('ignore')
 
-def fetch_ecliptic_anomalies():
-    print("--- Connecting to ESA Gaia Archive ---")
+def fetch_giant_planets_anomalies(save_to_csv=False, output_filename="gaia_anomalies_sample.csv"):
+    """
+    Executes ADQL query to find astrometric excess noise in giant planet corridors.
     
+    Returns:
+        astropy.table.Table: The complete query results.
+    """
     adql_query = """
-    SELECT TOP 50 
+    SELECT TOP 1000 
         source_id, ra, dec, phot_g_mean_mag, astrometric_excess_noise
     FROM gaiadr3.gaia_source
-    WHERE phot_g_mean_mag < 10.0 
-      AND astrometric_excess_noise > 2.0
-      AND dec BETWEEN -10.0 AND 10.0
+    WHERE phot_g_mean_mag < 12.0 
+      AND astrometric_excess_noise > 1.5
+      AND dec BETWEEN -5.0 AND 5.0
     ORDER BY astrometric_excess_noise DESC
     """
     
-    print("Executing ADQL Query for astrometric excess noise (Space-drag signature)...")
-    print("Please wait, querying European Space Agency servers...")
-    try:
-        job = Gaia.launch_job_async(adql_query)
-        results = job.get_results()
+    job = Gaia.launch_job_async(adql_query)
+    results = job.get_results()
+    
+    if save_to_csv:
+        results.write(output_filename, format='csv', overwrite=True)
         
-        print(f"\nSUCCESS! Retrieved {len(results)} highly anomalous stars near the ecliptic.")
-        print("\nTop 5 candidates for space-drag refraction analysis:")
-        print(results['source_id', 'ra', 'dec', 'astrometric_excess_noise'][0:5])
-        print("\nCONCLUSION: High excess noise near the ecliptic plane points to unmodeled refractive/drag variables.")
-    except Exception as e:
-        print(f"Error connecting to ESA: {e}")
+    return results
 
 if __name__ == "__main__":
-    fetch_ecliptic_anomalies()
+    print("Fetching Gaia DR3 anomalies...")
+    data_table = fetch_giant_planets_anomalies(save_to_csv=False)
+    print(f"Returned {len(data_table)} rows ready for research.")

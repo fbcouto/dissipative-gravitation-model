@@ -1,66 +1,52 @@
 """
-Dissipative Gravitation Model - Theoretical Deflection Calculator
+Theoretical Deflection Calculator (DGM V2)
 Author: Fernando B Couto
-Description: Calculates the theoretical asymmetric deflection of light 
-(space-drag anomaly) around a rotating massive body using the 
-viscoelastic vacuum tension parameter (gamma_0).
+Description: Calculates optical deformation in the strictly elastic regime,
+returning physical parameters for further research integration.
 """
 
-import math
+import numpy as np
 from scipy.constants import c, G, pi
 
-def calculate_theoretical_deflection(mass_kg, radius_m, v_eq_m_s, gamma_0):
-    print("==========================================================")
-    print(" DISSIPATIVE GRAVITATION MODEL - THEORETICAL PREDICTION")
-    print("==========================================================")
-    
-    # 1. DEFLEXÃO CLÁSSICA (Relatividade Geral - Schwarzschild)
-    # Fórmula: theta_GR = 4GM / (c^2 * R)
-    theta_gr_rad = (4 * G * mass_kg) / ((c**2) * radius_m)
-    
-    # Conversão de Radianos para Segundos de Arco (arcsec) e Micro-arcosegundos (µas)
-    rad_to_arcsec = (180.0 / pi) * 3600.0
-    theta_gr_arcsec = theta_gr_rad * rad_to_arcsec
-    
-    print(f"\n[1] EINSTEIN'S STATIC DEFLECTION (Baseline)")
-    print(f"    Expected: {theta_gr_arcsec:.6f} arcsec")
+# Conversion factor: Radians to Microarcseconds (uas)
+RAD_TO_UAS = (180.0 * 3600.0 * 1e6) / pi
 
-    # 2. ASSIMETRIA DE ARRASTAMENTO CLÁSSICA (Efeito Lense-Thirring / Kerr)
-    # A rotação do Sol "arrasta" a geometria do espaço
-    # Aproximação do frame-dragging: delta_kerr = theta_GR * (v_eq / c)
-    vortex_velocity_ratio = v_eq_m_s / c
-    delta_kerr_rad = theta_gr_rad * vortex_velocity_ratio
-    delta_kerr_uas = (delta_kerr_rad * rad_to_arcsec) * 1e6
+def calculate_elastic_deflection(target_name, mass, radius, v_eq, kappa_2, gamma_0=2.5):
+    """
+    Calculates the theoretical spacetime drag asymmetry (DGM V2) versus standard Kerr metrics.
     
-    print(f"\n[2] STANDARD FRAME-DRAGGING (Kerr Metric Geometry)")
-    print(f"    Expected asymmetry: {delta_kerr_uas:.6f} µas")
+    Returns:
+        dict: A dictionary containing the theoretical values ready for data analysis.
+    """
+    # 1. Classical Einstein Deflection (Schwarzschild)
+    theta_gr_rad = (4.0 * G * mass) / ((c**2) * radius)
+    theta_gr_arcsec = theta_gr_rad * (180.0 / pi) * 3600.0
 
-    # 3. AMPLIFICAÇÃO VISCOELÁSTICA (A Assinatura DGM - Teoria de Couto)
-    # O vácuo tem tensão (gamma_0). A luz sofre arrastamento de Fresnel análogo.
-    # Se gamma_0 = 1, comporta-se como a Relatividade Geral. 
-    # Se gamma_0 > 1, o fluido cria mais arrasto refrativo.
+    # 2. Dimensionless Potential and Elastic Vortex Velocity
+    pot_dimensionless = (G * mass) / (c**2 * radius)
+    v_vortex = 4.0 * kappa_2 * pot_dimensionless * v_eq
+
+    # 3. Lense-Thirring Asymmetry (Kerr Frame-Dragging)
+    delta_kerr_rad = theta_gr_rad * (v_eq / c)
+    delta_kerr_uas = delta_kerr_rad * RAD_TO_UAS
+
+    # 4. Viscoelastic Asymmetry (DGM Theory)
+    delta_dgm_rad = (4.0 * gamma_0 * G * mass * v_vortex) / (c**3 * radius)
+    delta_dgm_uas = delta_dgm_rad * RAD_TO_UAS
     
-    delta_dgm_rad = delta_kerr_rad * gamma_0
-    delta_dgm_uas = (delta_dgm_rad * rad_to_arcsec) * 1e6
-    
-    print(f"\n[3] COUTO'S VISCOELASTIC DRAG (DGM Prediction with γ₀ = {gamma_0})")
-    print(f"    Left Side Deflection (With Vortex):    + {delta_dgm_uas/2:.6f} µas")
-    print(f"    Right Side Deflection (Against Vortex): - {delta_dgm_uas/2:.6f} µas")
-    print(f"    --------------------------------------------------")
-    print(f"    TOTAL THEORETICAL ASYMMETRY (Δ):          {delta_dgm_uas:.6f} µas")
-    print("==========================================================\n")
-    
-    return delta_dgm_uas
+    kerr_multiple = (delta_dgm_uas / delta_kerr_uas) if delta_kerr_uas > 0 else 0.0
+
+    return {
+        "target": target_name,
+        "einstein_deflection_arcsec": theta_gr_arcsec,
+        "boundary_potential": pot_dimensionless,
+        "v_vortex_m_s": v_vortex,
+        "kerr_drag_uas": delta_kerr_uas,
+        "dgm_asym_uas": delta_dgm_uas,
+        "multiple_of_kerr": kerr_multiple
+    }
 
 if __name__ == "__main__":
-    # PARÂMETROS FÍSICOS DO SOL
-    M_sun = 1.989e30        # Massa do Sol em kg
-    R_sun = 6.9634e8        # Raio do Sol em metros
-    V_eq_sun = 1997.0       # Velocidade de rotação no equador (m/s)
-    
-    # PARÂMETRO DA TEORIA DGM (Afinável)
-    # Um vácuo perfeitamente "vazio" teria gamma_0 = 1.0
-    # O modelo Dissipativo sugere um vácuo "tenso" / viscoso. Vamos testar um valor de 2.5
-    GAMMA_0 = 2.5           
-    
-    calculate_theoretical_deflection(M_sun, R_sun, V_eq_sun, GAMMA_0)
+    # Example of how another researcher would use this module
+    sun_data = calculate_elastic_deflection("Sun", 1.989e30, 6.9634e8, 1997.0, 0.059)
+    print(f"Sun DGM Asymmetry: {sun_data['dgm_asym_uas']:.6f} uas")
