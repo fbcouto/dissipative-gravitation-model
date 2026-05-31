@@ -256,19 +256,19 @@ To foster scientific collaboration and open-source development, this project is 
 You are free to run, study, share, and modify the code and the theoretical concepts. However, any derivative work, academic publication, or software incorporating this algorithm must remain open-source under the same license and must explicitly credit the original author. Commercial enclosure of this algorithm is strictly prohibited under this license.
 ## How to Cite This Work
 
-If you reference this theory, mathematical model, or computational approach in a paper, blog post, or project, please use the following citation format:
+This model is officially published and archived via Zenodo. If you reference this theory, mathematical model, or computational approach in a paper, blog post, or project, please use the following citation format:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20469556.svg)](https://doi.org/10.5281/zenodo.20469556)
 
 **Text / APA:**
-> Couto, F. B. (2026). *Dissipative Gravitation Model: A Non-Linear Spatial Tension Approach to the N-Body Problem* [Source code and Whitepaper]. GitHub. https://github.com/fbcouto/dissipative-gravitation-model
+> Couto, F. B. (2026). *Dissipative Gravitation Model: A Non-Linear Spatial Tension Approach to the N-Body Problem* (Version 1.0) [Preprint/Dataset]. Zenodo. https://doi.org/10.5281/zenodo.20469556
 
 **BibTeX:**
 ```bibtex
-@misc{couto2026dissipative,
+@misc{couto2026dgm,
   author = {Couto, Fernando B.},
   title = {Dissipative Gravitation Model: A Non-Linear Spatial Tension Approach to the N-Body Problem},
   year = {2026},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{[https://github.com/fbcouto/dissipative-gravitation-model](https://github.com/fbcouto/dissipative-gravitation-model)}},
+  doi = {10.5281/zenodo.20469556},
+  publisher = {Zenodo}
 }
-
