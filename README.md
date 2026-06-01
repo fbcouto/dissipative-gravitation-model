@@ -13,7 +13,7 @@ This repository contains the theoretical foundation and the computational implem
 
 By introducing a non-linear, velocity-dependent spatial drag, this model resolves the chaotic instability of the classic 3-body problem in a vacuum, demonstrating how orbits naturally decay, dissipate energy into the medium (analogous to gravitational wave attenuation), and stabilize towards the system's geometric barycenter.
 
-![Dissipative Gravitation Model](terra.png)
+![Dissipative Gravitation Model](gaia_asymmetry_analysis.png)
 
 ---
 
@@ -119,8 +119,7 @@ To move beyond computational simulation and test the Dissipative Gravitation Mod
 * `theoretical_deflection_calculator.py`: The **Theoretical Sandbox**. It computes pure analytical predictions for a given celestial body. It outputs the baseline Einstein deflection, the standard Kerr frame-dragging, and the precise viscoelastic asymmetry ($\Delta$) predicted by the DGM V2 equations based on the body's internal mass concentration ($\kappa_2$).
 * `review.py`: The **Model Paradigm Validator**. Imports the calculator to generate a comparative DataFrame between Legacy Volume Drag (DGM V1) and the new Elastic Coupling Regime (DGM V2).
 * `gaia_dr3_anomaly_query.py`: The **Ecliptic Pipeline Query**. It connects via `astroquery` to the European Space Agency (ESA) DPAC servers to execute ADQL queries, pulling the highest astrometric excess noise signatures from stars intersecting the orbital plane of giant gas planets.
-* `empirical_asymmetry_analyzer.py`: The **Primary Statistical Validator**. Ingests the local observational `.csv` files, calculates the exact planetary ephemeris, and partitions the spatial mesh into Prograde and Retrograde DataFrames to return the exact empirical $\Delta$ signature.
-* `plot_gaia_real.py`: The **Visualizations Module**. Generates high-resolution frequency density histograms comparing the spatial-drag sectors.
+* `ivs_vlbi_asymmetry_filter.py`: The **Primary Statistical Validator & Visualizations Module**. Ingests the local observational data, calculates the exact planetary ephemeris, partitions the spatial mesh into Prograde and Retrograde sectors to return the exact empirical $\Delta$ signature, and generates high-resolution academic histograms comparing the spatial-drag sectors.
 
 ### Running the Python Tools
 
@@ -222,6 +221,7 @@ You are free to run, study, share, and modify the code and the theoretical conce
 This model is officially published and archived via Zenodo. If you reference this theory, mathematical model, or computational approach in a paper, blog post, or project, please use the following citation format:
 
 **Text / APA:**
+
 > Couto, F. B. (2026). *Dissipative Gravitation Model: A Non-Linear Spatial Tension Approach to the N-Body Problem* [Preprint/Dataset]. Zenodo. https://doi.org/10.5281/zenodo.20417466
 
 **BibTeX:**
