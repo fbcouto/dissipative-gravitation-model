@@ -1,4 +1,5 @@
 # Dissipative Gravitation Model: A Non-Linear Spatial Tension Approach to the N-Body Problem
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20417466.svg)](https://doi.org/10.5281/zenodo.20417466)
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
