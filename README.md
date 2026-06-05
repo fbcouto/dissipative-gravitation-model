@@ -144,6 +144,14 @@ A purely kinematic model (based on solid-body rotation) predicts near-zero mesh 
 In a viscoelastic vacuum, this massive, fast-spinning atmospheric envelope acts as an extension of the gravitational vortex, effectively shearing the internal mesh tension ($\gamma_0$). This proves that spacetime drag is driven by dynamic fluid friction rather than strict solid-geometry boundaries.
 
 ---
+## 8. Micro-Macro Unification: Resolving the EPR Paradox
+
+While the DGM focuses on macroscopic celestial mechanics and astrometric validation, the exact same viscoelastic fluid mechanics govern the quantum realm.
+
+In our sister project, the **Deterministic Wave Engine (DWE)**, this identical Base Space Tension ($\gamma_0$) is used to simulate subatomic particle trajectories. By modeling particles not as abstract probabilities, but as physical topological vortices with invariant helicity (spin), the framework fundamentally resolves the **EPR Paradox (Quantum Entanglement)**.
+
+When a particle system divides, the fragments acquire strictly inverse spins due to mechanical inertia (Newton's third law applied to angular momentum). The state variables are defined locally and causally at the exact moment of separation, completely eliminating the need for superluminal "spooky action at a distance" and strictly preserving the universal speed limit $c$. Gravity and quantum mechanics are thereby unified entirely through the fluid dynamics of the vacuum.
+---
 
 # Cosmological Appendix: The Mechanics of the Eternal Universe and the Reinterpretation of the Big Bang
 
