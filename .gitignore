@@ -1,6 +1,9 @@
 # Arquivos de compilação do Rust
 /target/
 **/*.rs.bk
+data_analysis/data/
+*.ODF
+*.gz
 
 # Arquivos temporários de sistema operacional
 .DS_Store
