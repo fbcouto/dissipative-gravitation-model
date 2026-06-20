@@ -35,59 +35,59 @@ However, extrapolating this stochastic energy density to cosmological scales res
 
 ### Dimensional Cross-Decomposition and $8\pi$ Topology
 
-The core of the theoretical intersection lies in breaking down the quantum action term ($\hbar c$) into its macro-tensor counterparts. In General Relativity, Einstein's coupling constant is $\kappa=\frac{8\pi G}{c^4}$[cite: 101]. By isolating the maximum tensile stress the spacetime manifold can endure—the Planck Force ($F_P=\frac{c^4}{G}$)—we observe that $\kappa=\frac{8\pi}{F_P}$[cite: 102, 103]. Defining the Base Tension strictly as $\gamma_0=\frac{F_P}{8\pi}$ normalizes the scalar curvature against the maximum force permitted by physics[cite: 104]. The $8\pi$ factor geometrically represents the integration of the flux density over the total solid angle of a hypersphere $S^2$ immersed in 3D Euclidean space[cite: 100, 105].
+The core of the theoretical intersection lies in breaking down the quantum action term ($\hbar c$) into its macro-tensor counterparts. In General Relativity, Einstein's coupling constant is $\kappa=\frac{8\pi G}{c^4}$. By isolating the maximum tensile stress the spacetime manifold can endure—the Planck Force ($F_P=\frac{c^4}{G}$)—we observe that $\kappa=\frac{8\pi}{F_P}$. Defining the Base Tension strictly as $\gamma_0=\frac{F_P}{8\pi}$ normalizes the scalar curvature against the maximum force permitted by physics. The $8\pi$ factor geometrically represents the integration of the flux density over the total solid angle of a hypersphere $S^2$ immersed in 3D Euclidean space.
 
-To justify the isotropic distribution, space is treated as a fluid of discrete Planck Areas ($A_P=l_P^2=\frac{\hbar G}{c^3}$)[cite: 106, 109]. The Planck Force $F_P$ distributes uniformly over a sphere of Planck radius with a surface area of $4\pi l_P^2$[cite: 110, 111]. Integrating the tension $\gamma_0$ over the effective mesh area demonstrates that the quantum action constant ($\hbar c$) is physically the base tension energy integrated over this fundamental area[cite: 112, 115, 116]:
+To justify the isotropic distribution, space is treated as a fluid of discrete Planck Areas ($A_P=l_P^2=\frac{\hbar G}{c^3}$). The Planck Force $F_P$ distributes uniformly over a sphere of Planck radius with a surface area of $4\pi l_P^2$. Integrating the tension $\gamma_0$ over the effective mesh area demonstrates that the quantum action constant ($\hbar c$) is physically the base tension energy integrated over this fundamental area:
 
 $$\hbar c=(\gamma_0\cdot8\pi)\cdot l_P^2$$
 
-The $8\pi$ normalizes the intersection between the continuous spherical geometry (gravitational field) and the discrete area limit (quantum limit)[cite: 117].
+The $8\pi$ normalizes the intersection between the continuous spherical geometry (gravitational field) and the discrete area limit (quantum limit).
 
 ### The Universal Casimir-DGM Equation
 
-The Casimir force is the divergence of pressure in the mesh caused by the restriction of field modes within the Planck topology[cite: 118]. It can be expressed as the variation of the tension density $\gamma_0$ across the geometric scale $L$[cite: 119]:
+The Casimir force is the divergence of pressure in the mesh caused by the restriction of field modes within the Planck topology. It can be expressed as the variation of the tension density $\gamma_0$ across the geometric scale $L$:
 
 $$F_{Casimir-DGM}=\int_A\nabla\cdot\left(\frac{\gamma_0}{L^2}\right)dA$$
 
-Where $A$ is the smallest topological area (Planck Area)[cite: 121, 123]. Injecting this visco-elastic constant back into Casimir's standard formulation yields the final derivation:
+Where $A$ is the smallest topological area (Planck Area). Injecting this visco-elastic constant back into Casimir's standard formulation yields the final derivation:
 
 $$P_{cas}=\frac{\pi^3}{30}\gamma_0\left(\frac{\ell_P^2}{d^4}\right)$$
 
-**Hydrodynamic Significance:** Plates are not pulled by virtual particles but are crushed together by a macroscopic acoustic shadow. The omnidirectional Base Tension ($\gamma_0$) collides against the outer faces of the plates, while the restricted nanometric corridor ($d$) creates a zone of acoustic exhaustion. The Planck force acts as the fundamental ground-state value of a spatial fluid whose topology, when fragmented, generates the vacuum tension observed empirically[cite: 125].
+**Hydrodynamic Significance:** Plates are not pulled by virtual particles but are crushed together by a macroscopic acoustic shadow. The omnidirectional Base Tension ($\gamma_0$) collides against the outer faces of the plates, while the restricted nanometric corridor ($d$) creates a zone of acoustic exhaustion. The Planck force acts as the fundamental ground-state value of a spatial fluid whose topology, when fragmented, generates the vacuum tension observed empirically.
 
 ---
 
 ## 1.2 Covariant Relativistic Hyperelasticity: The 4D Tensor Formulation
 
-To unify the vacuum's viscoelastic mechanics with General Relativity and preserve Lorentz symmetry [cite: 55, 56], the DGM utilizes a four-dimensional formulation based on covariant relativistic hyperelasticity and Spacetime Elastodynamics (STCED)[cite: 57]. The 4D manifold possesses a physical metric $g_{\mu\nu}$ (stressed state) and a relaxed reference metric $\bar{g}_{\mu\nu}$[cite: 58]. Introducing the vacuum's inertial flow vector $U^\mu$ [cite: 59] and the local spatial projector $h_{\mu\nu}=g_{\mu\nu}+U_\mu U_\nu$ [cite: 60, 61], the physical distortion is defined by the Green-Lagrange covariant strain tensor[cite: 62]:
+To unify the vacuum's viscoelastic mechanics with General Relativity and preserve Lorentz symmetry , the DGM utilizes a four-dimensional formulation based on covariant relativistic hyperelasticity and Spacetime Elastodynamics (STCED). The 4D manifold possesses a physical metric $g_{\mu\nu}$ (stressed state) and a relaxed reference metric $\bar{g}_{\mu\nu}$. Introducing the vacuum's inertial flow vector $U^\mu$  and the local spatial projector $h_{\mu\nu}=g_{\mu\nu}+U_\mu U_\nu$ , the physical distortion is defined by the Green-Lagrange covariant strain tensor:
 
 $$u_{\mu\nu}=\frac{1}{2}(h_{\mu\nu}-\bar{h}_{\mu\nu})$$
 
-Viscosity is directly incorporated into the vacuum's energy-momentum tensor ($T_{\mu\nu}^{visco}$), decomposed into elastic (Hooke) and viscous (Voigt) components[cite: 66, 67]:
+Viscosity is directly incorporated into the vacuum's energy-momentum tensor ($T_{\mu\nu}^{visco}$), decomposed into elastic (Hooke) and viscous (Voigt) components:
 
 $$T_{\mu\nu}^{elastic}=2N_{VAC}\left(u_{\mu\nu}-\frac{1}{3}\theta_eh_{\mu\nu}\right)+K_{VAC}\theta_eh_{\mu\nu}$$
 
-where $N_{VAC}$ and $K_{VAC}$ are the effective shear and volumetric bulk moduli [cite: 69, 71, 72], and $\theta_e$ is the volumetric dilation[cite: 64]. The dissipative viscous response (internal mesh friction) is given by[cite: 76, 77]:
+where $N_{VAC}$ and $K_{VAC}$ are the effective shear and volumetric bulk moduli , and $\theta_e$ is the volumetric dilation. The dissipative viscous response (internal mesh friction) is given by:
 
 $$T_{\mu\nu}^{viscous}=2\eta_{VAC}\sigma_{\mu\nu}+\zeta_{VAC}\theta h_{\mu\nu}$$
 
-Substituting the total universe tensor ($T_{\mu\nu}^{total}=T_{\mu\nu}^{matter}+T_{\mu\nu}^{visco}$) into Einstein's Field Equations yields[cite: 79, 81, 82]:
+Substituting the total universe tensor ($T_{\mu\nu}^{total}=T_{\mu\nu}^{matter}+T_{\mu\nu}^{visco}$) into Einstein's Field Equations yields:
 
 $$G_{\mu\nu}=\frac{8\pi G}{c^4}\left(T_{\mu\nu}^{matter}+T_{\mu\nu}^{visco}\right)$$
 
-General covariance ($\nabla^\mu G_{\mu\nu}=0$) guarantees that any energy or momentum loss from matter is rigorously absorbed and dissipated as elastic deformation or acoustic heat within the viscoelastic vacuum[cite: 83, 85, 86, 87]. Macroscopic geometric curvature is mathematically proven to be the elastic shear and compression of the vacuum under mechanical load[cite: 92]. Consequently, gravitational waves act as physical transverse shear waves propagating at $c=\sqrt{\frac{N_{VAC}}{\rho_{VAC}}}$[cite: 93, 94].
+General covariance ($\nabla^\mu G_{\mu\nu}=0$) guarantees that any energy or momentum loss from matter is rigorously absorbed and dissipated as elastic deformation or acoustic heat within the viscoelastic vacuum. Macroscopic geometric curvature is mathematically proven to be the elastic shear and compression of the vacuum under mechanical load. Consequently, gravitational waves act as physical transverse shear waves propagating at $c=\sqrt{\frac{N_{VAC}}{\rho_{VAC}}}$.
 
 ---
 
 ## 1.3 Quantum Entanglement and the Tsirelson Bound: Gaussian Inelastic Friction
 
-To derive the 13.5% attenuation parameter mathematically ab initio [cite: 1], the DGM models fundamental particles (Spindle Vortices) as acoustic/fluidic vortices with a perfectly Gaussian intensity envelope[cite: 2, 5]. The energy distribution in the transverse plane is $E(r)=E_0\exp\left(-\frac{2r^2}{w^2}\right)$, where $E_0$ is the core energy, $r$ is the radial distance, and $w$ is the vortex waist[cite: 6]. 
+To derive the 13.5% attenuation parameter mathematically ab initio , the DGM models fundamental particles (Spindle Vortices) as acoustic/fluidic vortices with a perfectly Gaussian intensity envelope. The energy distribution in the transverse plane is $E(r)=E_0\exp\left(-\frac{2r^2}{w^2}\right)$, where $E_0$ is the core energy, $r$ is the radial distance, and $w$ is the vortex waist. 
 
-In fluid dynamics, the interactive boundary of a Gaussian wave packet is defined at $r=w$[cite: 7]. At this peripheral contact point, the energy drops strictly to[cite: 8, 9]:
+In fluid dynamics, the interactive boundary of a Gaussian wave packet is defined at $r=w$. At this peripheral contact point, the energy drops strictly to:
 
 $$E(w)=\frac{E_0}{e^2}$$
 
-This results in the exact thermodynamic boundary coefficient of $\frac{1}{e^2}\approx0.135335$ ($13.53\%$)[cite: 10, 11, 12]. When a photon-vortex hits a polarizer grid, the outer boundary layer containing this $1/e^2$ energy is irremediably absorbed and dissipated as acoustic friction into the viscoelastic vacuum[cite: 13, 14, 15]. While the projected energy survival follows Malus's Law $\cos^2(\Delta)$ [cite: 18], the system is forced to curve under the weight of this continuous inelastic loss[cite: 20]. Applying this transverse hydrodynamic limit dampens the classical system to stabilize exactly at Tsirelson's Bound ($2\sqrt{2}\approx2.828$) [cite: 21], proving that the Bell/CHSH quantum limit emerges directly from the classical fluid mechanics of wave packets dissipating energy in a tensioned medium[cite: 23].
+This results in the exact thermodynamic boundary coefficient of $\frac{1}{e^2}\approx0.135335$ ($13.53\%$). When a photon-vortex hits a polarizer grid, the outer boundary layer containing this $1/e^2$ energy is irremediably absorbed and dissipated as acoustic friction into the viscoelastic vacuum. While the projected energy survival follows Malus's Law $\cos^2(\Delta)$ , the system is forced to curve under the weight of this continuous inelastic loss. Applying this transverse hydrodynamic limit dampens the classical system to stabilize exactly at Tsirelson's Bound ($2\sqrt{2}\approx2.828$) , proving that the Bell/CHSH quantum limit emerges directly from the classical fluid mechanics of wave packets dissipating energy in a tensioned medium.
 
 ---
 
