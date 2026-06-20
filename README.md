@@ -89,6 +89,7 @@ To definitively prove this framework, we rely exclusively on **Level 0 Data**—
 
 ### Experiment III: The Solar Gradient (Mercury / MESSENGER)
 
+![Messenger](data_analysis/plots/dgm_proof_surgery_mess_rs_11315_318_odf.png)
 **Objective:** Establish the mathematical curve of the vacuum's rheofluidification, proving that spatial viscosity decays exponentially with distance from the Solar rotor.
 
 * **Target Data:** NASA PDS4 Orbit Data Files `mess_rs_11315_318_odf.csv` (Nov 2011).
@@ -97,7 +98,7 @@ To definitively prove this framework, we rely exclusively on **Level 0 Data**—
 
 
 ### Experiment IV: Interplanetary Medium Noise (Saturn / Cassini)
-
+![Cassini](data_analysis/plots/dgm_cassini_plasma_residuos.png)
 **Objective:** Differentiate standard solar plasma interference from the fundamental topological viscosity of the DGM.
 
 * **Target Data:** Cassini 2005 Radio Science telemetry.
