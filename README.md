@@ -114,6 +114,7 @@ Beyond raw orbital telemetry, the spatial fluid dynamics must govern macro-relat
 
 ### Experiment V: Frame-Dragging Viscous Dissipation (Gravity Probe B)
 
+![Probe B](data_analysis/plots/dgm_v4_exp1_gpb.png)
 **Objective:** Demonstrate that the dragging of inertial frames is not purely geometric, but subject to viscoelastic hysteresis.
 
 * **Result:** While ideal, frictionless General Relativity predicts 39.2 mas/yr of continuous inertial drag, the DGM introduces subcritical continuous viscous friction. This perfectly matches the empirical Gravity Probe B official result of 37.2 mas/yr, refuting super-dimensioned models devoid of rheological resistance.
@@ -122,6 +123,7 @@ Beyond raw orbital telemetry, the spatial fluid dynamics must govern macro-relat
 
 ### Experiment VI: Stochastic Background Attenuation (NANOGrav 15-yr)
 
+![Nanograv](data_analysis/plots/dgm_v4_exp2_nanograv.png)
 **Objective:** Prove the inelastic attenuation of the Stochastic Gravitational-Wave Background (SGWB).
 
 * **Result:** The NANOGrav 15-yr data points deviate from the continuous, non-dissipative spectrum predicted by GR. The DGM attenuation curve fits the data perfectly, proving that macroscopic scalar vibrations are modulated by irreversible dissipation and natural viscosity over galactic distances.
