@@ -69,7 +69,7 @@ $$\gamma_0 = \frac{30 d^4 P_{cas}}{\pi^3 \ell_P^2}$$
 To definitively prove this framework, we rely exclusively on **Level 0 Data**—the raw, closed-loop Doppler radio science files from the Deep Space Network (DSN), before standard relativistic algorithms can "smooth" the anomalies away.
 
 ### Experiment I: The Dynamic Proof (Jupiter / Juno)
-
+![Juno 1831XMMMC005V01](data_analysis/plots/dgm_proof_GRV_JUGR_2016240_1831XMMMC005V01.pnh)
 **Objective:** Prove that the deep zonal fluid currents of gas giants drag the local gravitational field, creating an active thermodynamic wake.
 
 * **Target Data:** NASA PDS `XMMMC005V01.ODF` files (Jupiter Perijoves).
