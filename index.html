@@ -17,7 +17,7 @@
             height: 100%;
         }
     </style>
-<link rel="modulepreload" href="/gravitation_model-1435fb38736cc2e9.js" crossorigin="anonymous" integrity="sha384-vUckPriMo4HOaohW5r4uHDBcbP311y62oB0pvHQZmLk+Zr4h0TeHFpveYt/KF2aA"><link rel="preload" href="/gravitation_model-1435fb38736cc2e9_bg.wasm" crossorigin="anonymous" integrity="sha384-RjOYYfM0Wl+PPqIdaAzgJjFwM0/mBaa3C4w52ojUj3KHU9p+S6aaVEmF4kVxjNE2" as="fetch" type="application/wasm"></head>
+</head>
 <body>
     <canvas id="glcanvas" tabindex='1'></canvas>
     
@@ -27,16 +27,5 @@
         // O nome do arquivo DEVE ser exatamente o nome do seu projeto no Cargo.toml
         load("gravitation_model.wasm");
     </script>
-
-<script type="module">
-import init, * as bindings from '/gravitation_model-1435fb38736cc2e9.js';
-const wasm = await init('/gravitation_model-1435fb38736cc2e9_bg.wasm');
-
-
-window.wasmBindings = bindings;
-
-
-dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
-
-</script></body>
+</body>
 </html>
