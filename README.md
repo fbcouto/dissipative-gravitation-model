@@ -191,9 +191,9 @@ Where $\gamma_0$ is the Primordial Base Tension, $E_a$ is the Topological Activa
 
 This equation axiomatically justifies the immense drop in rigidity without relying on empirical "fudge factors". The functional shear modulus of $N_{VAC} \approx 2.79 \times 10^{31}$ Pa is the natural asymptotic plateau reached when inserting real galactic rotation rates ($\dot{\gamma}$) and the standard $T_{CMB}$, proving planetary gravitation operates in an elastic "melted" regime, while the Casimir Effect operates near $\gamma_0$ where local shear stress approaches zero.
 
-#### The Thermodynamic Cycle: A Breathing Universe
+## The Thermodynamic Cycle: A Breathing Universe
 
-Dissipative Gravitation describes a circulatory and self-sustaining system, avoiding total thermodynamic failure through a continuous cycle of spatial phase changes.
+### Dissipative Gravitation describes a circulatory and self-sustaining system, avoiding total thermodynamic failure through a continuous cycle of spatial phase changes.
 ---
 
 ## Intellectual Property & License
