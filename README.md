@@ -172,25 +172,31 @@ python data_analysis/scripts/plot_nanograv_dgm.py
 python data_analysis/scripts/simulation_casimir_dgm.py
 
 ```
-
 ---
 
-## 4. Cosmological Appendix: The Eternal Universe
+## 4 Cosmological Appendix: The Mechanics of the Eternal Universe
 
-The DGM demonstrates that attempting to compress matter indefinitely against a space possessing an extreme limiting tension ($\gamma_{0}$) generates a "thermodynamic choke", demanding repulsion through inelastic boundary dissipation and rendering the geometric Big Bang (Singularity) physically impossible.
+### 4.1 Physical Foundations: The Break from the Standard Model
 
-### The Rheological Equation of State of the Vacuum
+The Standard Model of Cosmology postulates that the universe had a singular beginning. The Dissipative Gravitation Model, by attributing hydrodynamic properties and a Base Tension ($\gamma_0$) to spacetime, directly contradicts this premise.
 
-To formally derive the vacuum's effective tension under cosmological drag, the DGM utilizes continuum mechanics, treating space as a pseudo-plastic non-Newtonian fluid. Fusing the Ostwald-de Waele power law and Arrhenius thermal dependence with the Carreau-Yasuda generalization, we obtain the unified state equation:
+#### The Impossibility of the Singularity (Universe Choke)
 
-$$\gamma_{eff}(\dot{\gamma},T)=\gamma_{0}\exp\left(-\frac{E_{a}}{k_{B}T_{CMB}}\right)\left[1+(\tau_{c}\dot{\gamma})^{2}\right]^{\frac{n-1}{2}}$$
+Attempting to compress matter indefinitely against a space that possesses an extreme limiting tension ($\gamma_0 = 4.82 \times 10^{42}$ Pa) generates a thermodynamic "choke" (a mechanical overpressure). This inexorably demands repulsion through steadfast inelastic boundary dissipation, systematically preventing any real point density from reaching zero singularity and causing catastrophic numerical failure. The universe has a maximum limit of compression.
 
+#### The Rheological Equation of State of the Vacuum
 
+To formally derive the vacuum's effective tension under cosmological drag, the DGM utilizes continuum mechanics, treating the space as a pseudo-plastic non-Newtonian fluid undergoing shear-thinning. Fusing the Ostwald-de Waele power law and Arrhenius thermal dependence with the Carreau-Yasuda generalization, we obtain the unified state equation:
 
-Where $\gamma_{0}$ is the Primordial Base Tension, $E_{a}$ is the Topological Activation Energy, $T_{CMB}$ is the cosmic background thermal drag temperature, $\tau_{c}$ is the natural relaxation time, $\dot{\gamma}$ is the rotational stress rate from galactic translation, and $n$ is the universal pseudo-plasticity index.
+$$\gamma_{eff}(\dot{\gamma},T) = \gamma_{0}\exp\left(-\frac{E_{a}}{k_{B}T_{CMB}}\right)\left[1+(\tau_{c}\dot{\gamma})^{2}\right]^{\frac{n-1}{2}}$$
 
-This proves planetary gravitation operates in an elastic "melted" regime, while the Casimir Effect operates near $\gamma_{0}$ where local shear stress approaches zero. The universe is not governed by expansions and contractions of emptiness, but by thermodynamic cycles of spatial state changes, acting as a continuous, breathing ocean.
+Where $\gamma_0$ is the Primordial Base Tension, $E_a$ is the Topological Activation Energy, $k_B$ is the Boltzmann constant, $T_{CMB}$ is the cosmic background thermal drag temperature, $\tau_c$ is the natural relaxation time (fluid inertia), $\dot{\gamma}$ is the rotational stress rate from galactic translation, and $n$ is the universal pseudo-plasticity index ($n < 1$).
 
+This equation axiomatically justifies the immense drop in rigidity without relying on empirical "fudge factors". The functional shear modulus of $N_{VAC} \approx 2.79 \times 10^{31}$ Pa is the natural asymptotic plateau reached when inserting real galactic rotation rates ($\dot{\gamma}$) and the standard $T_{CMB}$, proving planetary gravitation operates in an elastic "melted" regime, while the Casimir Effect operates near $\gamma_0$ where local shear stress approaches zero.
+
+#### The Thermodynamic Cycle: A Breathing Universe
+
+Dissipative Gravitation describes a circulatory and self-sustaining system, avoiding total thermodynamic failure through a continuous cycle of spatial phase changes.
 ---
 
 ## Intellectual Property & License
