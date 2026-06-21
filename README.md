@@ -27,8 +27,7 @@ The DGM abandons the inert stage of classical General Relativity. Instead, it de
 
 
 * 
-**The Velocity of Light (c) as a Hydrodynamic Limit:** Photons represent a shear ripple, and the speed of light is the extreme thermodynamic threshold where the spatial tissue undergoes complete acoustic exhaustion.
-
+**The Velocity of Light (c) as a Hydrodynamic Limit:** Photons do not travel through an empty void; they represent a shear ripple. The speed of light is the extreme thermodynamic threshold where the spatial tissue undergoes complete acoustic exhaustion, creating a nearly frictionless quantum supercavitation micro-bubble.
 
 
 ### 1.1 Covariant Relativistic Hyperelasticity: The 4D Tensor Formulation
