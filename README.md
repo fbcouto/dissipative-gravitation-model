@@ -18,16 +18,13 @@ Through computational modeling and parametric integration, this work re-evaluate
 
 The DGM abandons the inert stage of classical General Relativity. Instead, it defines the vacuum through rigorous rheological mechanics:
 
-* 
-**The Primordial Base Tension ($\gamma_0$):** Derived by converting the static coupling constant of General Relativity into a continuous fluid metric ($c^4/8\pi G$), the absolute compressive tension of the vacuum is calculated at $\gamma_0 \approx 4.82 \times 10^{42}$ Pa. This extreme rigidity confines quantum probabilities and prevents subatomic topological defects from dissipating into mechanical nothingness.
+* **The Primordial Base Tension ($\gamma_0$):** Derived by converting the static coupling constant of General Relativity into a continuous fluid metric ($c^4/8\pi G$), the absolute compressive tension of the vacuum is calculated at $\gamma_0 \approx 4.82 \times 10^{42}$ Pa. This extreme rigidity confines quantum probabilities and prevents subatomic topological defects from dissipating into mechanical nothingness.
 
 
-* 
-**Rheofluidification (Shear-Thinning):** At macroscopic, planetary scales, continuous thermal and radiation stress force a "geometric thaw". Governed by Carreau-Yasuda non-Newtonian fluid mechanics, the vacuum yields, dropping its effective tension to a functionally pliable shear modulus of $N_{VAC} \approx 2.79 \times 10^{31}$ Pa.
+* **Rheofluidification (Shear-Thinning):** At macroscopic, planetary scales, continuous thermal and radiation stress force a "geometric thaw". Governed by Carreau-Yasuda non-Newtonian fluid mechanics, the vacuum yields, dropping its effective tension to a functionally pliable shear modulus of $N_{VAC} \approx 2.79 \times 10^{31}$ Pa.
 
 
-* 
-**The Velocity of Light (c) as a Hydrodynamic Limit:** Photons do not travel through an empty void; they represent a shear ripple. The speed of light is the extreme thermodynamic threshold where the spatial tissue undergoes complete acoustic exhaustion, creating a nearly frictionless quantum supercavitation micro-bubble.
+* **The Velocity of Light (c) as a Hydrodynamic Limit:** Photons do not travel through an empty void; they represent a shear ripple. The speed of light is the extreme thermodynamic threshold where the spatial tissue undergoes complete acoustic exhaustion, creating a nearly frictionless quantum supercavitation micro-bubble.
 
 
 ### 1.1 Covariant Relativistic Hyperelasticity: The 4D Tensor Formulation
